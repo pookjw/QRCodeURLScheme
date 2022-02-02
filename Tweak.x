@@ -1,17 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface _TtC4Toss11AppDelegate
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
-@end
-
-@interface _TtC9KakaoTalk17TalkSceneDelegate
-- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts;
-@end
-
-@interface NaverSearchAppDelegate
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
-@end
-
 %hook _TtC4Toss11AppDelegate
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
 	NSLog(@"%@", url.absoluteString);
