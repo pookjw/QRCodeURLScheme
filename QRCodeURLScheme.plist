@@ -1,0 +1,12 @@
+{
+	Filter = {
+		Bundles = (
+			"com.iwilab.KakaoTalk",
+			"com.vivarepublica.cash",
+			"com.nhncorp.NaverSearch",
+			"com.kt.ktauth",
+			"com.lguplus.auth.ios",
+			"com.sktelecom.tauth",
+		);
+	};
+}
